@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Biblioteca_API_Local\Biblioteca_API_Local.csproj" />
+    <ProjectReference Include="..\Biblioteca_API\Biblioteca_API.csproj" />
   </ItemGroup>
 
 </Project>

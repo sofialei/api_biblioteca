@@ -1,4 +1,4 @@
-ususing Biblioteca_API.Data;
+﻿using Biblioteca_API.Data;
 using Biblioteca_API.DTOs;
 using Biblioteca_API.Interfaces;
 using Biblioteca_API.Models;
@@ -79,7 +79,7 @@ public class LibroService : ILibroService
 
         if (await _context.Prestamos.AnyAsync(p => p.LibroId == id))
             throw new InvalidOperationException(
-                "No se puede eliminar el libro porque tiene pr�stamos registrados.");
+                "No se puede eliminar el libro porque tiene préstamos registrados.");
 
         _context.Libros.Remove(libro);
         await _context.SaveChangesAsync();

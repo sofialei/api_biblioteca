@@ -1,4 +1,4 @@
-using Biblioteca_API.Data;
+Ôªøusing Biblioteca_API.Data;
 using Biblioteca_API.DTOs;
 using Biblioteca_API.Models;
 using Biblioteca_API.Services;
@@ -21,7 +21,7 @@ public class LibroServiceTests
     private static LibroDTO LibroValido(string isbn = "9781234567890") => new()
     {
         Titulo = "Rayuela",
-        Autor = "Julio Cort·zar",
+        Autor = "Julio Cort√°zar",
         ISBN = isbn,
         Genero = "Novela"
     };
@@ -62,10 +62,10 @@ public class LibroServiceTests
         var creado = await service.CrearAsync(LibroValido());
 
         var dto = LibroValido();
-        dto.Titulo = "Rayuela (ediciÛn nueva)";
+        dto.Titulo = "Rayuela (edici√≥n nueva)";
 
         Assert.True(await service.ActualizarAsync(creado.Id, dto));
-        Assert.Equal("Rayuela (ediciÛn nueva)",
+        Assert.Equal("Rayuela (edici√≥n nueva)",
             (await service.ObtenerPorIdAsync(creado.Id))!.Titulo);
     }
 

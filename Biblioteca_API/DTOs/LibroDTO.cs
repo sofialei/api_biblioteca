@@ -1,10 +1,10 @@
-using System.ComponentModel.DataAnnotations;
+ï»¿using System.ComponentModel.DataAnnotations;
 
 namespace Biblioteca_API.DTOs;
 
 public class LibroDTO
 {
-    [Required(ErrorMessage = "El título es obligatorio")]
+    [Required(ErrorMessage = "El tÃ­tulo es obligatorio")]
     [StringLength(200)]
     public string Titulo { get; set; } = string.Empty;
 
@@ -14,7 +14,7 @@ public class LibroDTO
 
     [Required(ErrorMessage = "El ISBN es obligatorio")]
     [RegularExpression("^[0-9]{10}([0-9]{3})?$",
-        ErrorMessage = "El ISBN debe tener 10 o 13 dígitos, sin guiones")]
+        ErrorMessage = "El ISBN debe tener 10 o 13 dÃ­gitos, sin guiones")]
     public string ISBN { get; set; } = string.Empty;
 
     [StringLength(100)]
