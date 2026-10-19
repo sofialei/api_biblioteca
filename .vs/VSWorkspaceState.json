@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Biblioteca_API",
+    "\\Biblioteca_API.Tests",
+    "\\Biblioteca_API\\Controllers",
+    "\\Biblioteca_API\\Data",
+    "\\Biblioteca_API\\Interfaces",
+    "\\Biblioteca_API\\Services",
+    "\\Biblioteca_API\\Tests",
+    "\\Biblioteca_API_Local",
+    "\\Biblioteca_API_Local\\DTOs"
+  ],
+  "SelectedNode": "\\Biblioteca_API_Local\\DTOs\\LibroDTO.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API_Local\\DTOs\\LibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API_Local\\DTOs\\LibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\LibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\DTOs\\LibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Data\\BibliotecaDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Data\\BibliotecaDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Controllers\\LibrosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Controllers\\LibrosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Services\\LibroService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Services\\LibroService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Interfaces\\ILibroService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Interfaces\\ILibroService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Models\\Libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\Models\\Libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\CrearLibroDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_API\\DTOs\\CrearLibroDTO.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API_Local\\DTOs\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API_Local\\DTOs\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API_Local\\DTOs\\LibroDTO.cs",
+              "RelativeToolTip": "Biblioteca_API_Local\\DTOs\\LibroDTO.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T21:01:00.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Biblioteca_API.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj",
+              "RelativeToolTip": "Biblioteca_API\\Biblioteca_API.Tests\\Biblioteca_API.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-17T20:36:41.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BibliotecaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Data\\BibliotecaDbContext.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Data\\BibliotecaDbContext.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Data\\BibliotecaDbContext.cs",
+              "RelativeToolTip": "Biblioteca_API\\Data\\BibliotecaDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T20:30:46.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibroService.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Services\\LibroService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Services\\LibroService.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Services\\LibroService.cs",
+              "RelativeToolTip": "Biblioteca_API\\Services\\LibroService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:48:33.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILibroService.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Interfaces\\ILibroService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Interfaces\\ILibroService.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Interfaces\\ILibroService.cs",
+              "RelativeToolTip": "Biblioteca_API\\Interfaces\\ILibroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:48:19.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Biblioteca_API\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:47:56.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Models\\Libro.cs",
+              "RelativeToolTip": "Biblioteca_API\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:47:26.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs",
+              "RelativeToolTip": "Biblioteca_API\\Biblioteca_API.Tests\\LibroServiceTests.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:45:48.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActualizarLibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs",
+              "RelativeToolTip": "Biblioteca_API\\DTOs\\ActualizarLibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:45:15.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrearLibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\CrearLibroDTO.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\DTOs\\CrearLibroDTO.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\CrearLibroDTO.cs",
+              "RelativeToolTip": "Biblioteca_API\\DTOs\\CrearLibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:44:40.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "Biblioteca_API\\DTOs\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\leies\\Downloads\\Biblioteca_API\\Biblioteca_API\\DTOs\\LibroDTO.cs",
+              "RelativeToolTip": "Biblioteca_API\\DTOs\\LibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:40:28.043Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
