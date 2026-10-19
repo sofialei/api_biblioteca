@@ -1,6 +1,5 @@
 ﻿using Biblioteca_API.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
 
 namespace Biblioteca_API.Data;
 
