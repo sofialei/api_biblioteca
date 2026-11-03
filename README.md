@@ -327,12 +327,48 @@ classDiagram
     Mutation --> IPrestamoService
 ```
 
-## Diseño
+## Diseño: SOLID, Clean Code e inyección de dependencias
 
-- **Inyección de dependencias:** los servicios se registran en `Program.cs` y se reciben por constructor (REST) o con `[Service]` (GraphQL).
-- **Inversión de dependencias:** controladores y resolvers dependen de interfaces (`ILibroService`, `ISocioService`, `IPrestamoService`), no de clases concretas.
-- **Responsabilidad única:** cada servicio se ocupa de un solo módulo.
-- **Sin duplicación:** REST y GraphQL comparten los mismos servicios.
+### SOLID
+
+| Principio | Dónde se aplica | Cómo |
+|---|---|---|
+| **S** – Responsabilidad única | `LibroService`, `SocioService`, `PrestamoService`, controladores | Cada servicio atiende un solo módulo (`PrestamoService` solo se ocupa de las reglas de préstamos). Los controladores solo traducen HTTP a llamadas al servicio y las excepciones a códigos de estado. |
+| **O** – Abierto/cerrado | Interfaces de servicio | Se puede agregar otra implementación de una interfaz (por ejemplo, con caché) sin modificar controladores ni GraphQL; solo se cambia el registro en `Program.cs`. |
+| **L** – Sustitución de Liskov | `ILibroService`, `ISocioService`, `IPrestamoService` | Cualquier implementación respeta el contrato: devuelve `null` o `false` si el recurso no existe y lanza `KeyNotFoundException` o `InvalidOperationException` ante una regla incumplida (documentado en `IPrestamoService`). |
+| **I** – Segregación de interfaces | Tres interfaces separadas | Cada consumidor depende solo de lo que usa; por ejemplo, la clase `Mutation` solo conoce `IPrestamoService`. |
+| **D** – Inversión de dependencias | Constructores de los controladores y parámetros `[Service]` de GraphQL | Las capas superiores dependen de interfaces, no de clases concretas; `Program.cs` decide qué implementación usar. |
+
+### Clean Code
+
+- **Nombres descriptivos:** `RegistrarAsync`, `DevolverAsync`, `ObtenerActivosAsync`, `ObtenerHistorialPorSocioAsync`, `PrestamoResponseDTO`.
+- **Métodos con una sola tarea:** cada método del servicio resuelve una operación, y la conversión de entidad a DTO está en un método privado `ToDto`.
+- **Sin duplicación de reglas:** REST y GraphQL usan los mismos servicios, así que cada regla de negocio existe en un solo lugar.
+- **Separación de responsabilidades:** modelos, datos, contratos, lógica, DTOs, controladores y GraphQL en carpetas distintas.
+- **Validaciones declarativas:** anotaciones en los DTOs (`Required`, `StringLength`, `RegularExpression`, `EmailAddress`) que `[ApiController]` aplica antes de llegar al servicio.
+- **Mensajes de error claros** y códigos de estado coherentes: 400 (datos inválidos), 404 (no existe) y 409 (conflicto con el estado actual).
+- **Entidades protegidas:** la API nunca devuelve entidades de la base, solo DTOs.
+
+### Inyección de dependencias
+
+Los servicios se registran una sola vez en `Program.cs` y el contenedor de .NET los entrega:
+
+```csharp
+builder.Services.AddScoped<ILibroService, LibroService>();
+builder.Services.AddScoped<ISocioService, SocioService>();
+builder.Services.AddScoped<IPrestamoService, PrestamoService>();
+```
+
+Los controladores reciben la interfaz por constructor, sin crear el servicio con `new`:
+
+```csharp
+public LibrosController(ILibroService libroService)
+{
+    _libroService = libroService;
+}
+```
+
+En GraphQL se usa `[Service]` para recibir la misma interfaz en cada resolver. `AddScoped` crea una instancia por solicitud, que comparte el mismo `BibliotecaDbContext`.
 
 ## Equipo
 
